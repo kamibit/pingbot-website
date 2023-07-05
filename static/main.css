@@ -1,0 +1,101 @@
+body {
+  color: white;
+  background: #1e1f22;
+  /* background: black; */
+  font-family: Inter;
+}
+
+h1 {
+  font-weight: 600;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+}
+
+.home-text {
+  font-size: calc(16px + 0.4vw);
+}
+
+.home-text-large {
+  font-size: calc(36px + 0.4vw);
+}
+
+a {
+  color: #5865f2;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.section2 {
+  text-align: center;
+  color: whitesmoke;
+  padding: 1% 4%;
+}
+
+.footer {
+  text-align: center;
+  color: whitesmoke;
+  padding: 8px;
+}
+
+.section-home {
+  text-align: center;
+  min-height: 100%;
+  /* color: black; */
+  padding: 12% 0%;
+  /* background: #1e1f22; */
+  background-image: url("/static/images/bg.png");
+}
+
+.seperator {
+  margin-top: 1.4rem;
+  border: 1px #00000008;
+  margin-bottom: 1.4rem;
+}
+
+.seperator-big {
+  margin-top: 2.4rem;
+  border: 1px #00000008;
+  margin-bottom: 2.4rem;
+}
+
+.seperator-small {
+  margin-top: 0.8rem;
+  border: 1px #00000008;
+  margin-bottom: 0.8rem;
+}
+
+.section {
+  padding: 12px 12px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.custom-button {
+  color: white;
+  height: 42px;
+  border-radius: 6px;
+  border: 1px solid #ffffff42;
+  margin-bottom: 16px;
+  padding: 2px 8px;
+  /* background: black; */
+  background: #5865f2;
+  width: 200px;
+  margin-right: 4px;
+  min-width: auto;
+}
+
+.custom-button:hover {
+  cursor: pointer;
+  border: 1px solid #ffffff20;
+  /* background: #5865f2; */
+  background: white;
+  color: black;
+  transition: ease-in 0.14s;
+}
+
+.custom-button:focus {
+  outline: none;
+}
